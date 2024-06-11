@@ -52,9 +52,11 @@ const Navbar = () => {
                     <li>Contact Us</li>
                     </Link>
                     </ul>
-                    <button className='bg-[#00046A] rounded-md px-4 py-2 text-white mt-12'>
-                        Open Store
-                    </button>
+                    <a href="https://paystack.shop/adorned-by-amani">
+                        <button className='bg-[#00046A] rounded-md px-4 py-2 text-white mt-12'>
+                            Open Store
+                        </button> 
+                    </a>
                     </div>
                 </div>
             )}
