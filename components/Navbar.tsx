@@ -31,7 +31,7 @@ const Navbar = () => {
           </Link>
         </ul>
         <a href="https://paystack.shop/adorned-by-amani">
-          <button className="bg-[#00046A] rounded-md px-4 py-2 text-white mt-12">
+          <button className="bg-[#00046A] rounded-md px-4 py-2 text-white">
             Open Store
           </button>
         </a>
