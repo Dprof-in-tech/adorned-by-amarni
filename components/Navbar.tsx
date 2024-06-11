@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <nav className='relative flex flex-row justify-between px-2 md:px-12 py-2'>
             <div className="">
-                <Image src="/assets/logo.svg" alt="logo" width={500} height={500} className='w-[85px] h-[45px]' />
+                <Image loading='lazy'  src="/assets/logo.svg" alt="logo" width={500} height={500} className='w-[85px] h-[45px]' />
             </div>
             <div className='hidden lg:flex flex-row gap-6 items-center'>
                 <ul className='flex flex-row gap-4 items-center'>
@@ -30,7 +30,7 @@ const Navbar = () => {
             </div>
             <div className="lg:hidden flex items-center">
                 <button onClick={toggleMenu}>
-                    <Image 
+                    <Image loading='lazy'  
                         src={menuOpen ? "/assets/close.svg" : "/assets/menu.svg"} 
                         alt="menu icon" 
                         width={24} 
@@ -41,7 +41,7 @@ const Navbar = () => {
             {menuOpen && (
                 <div className="fixed top-0 left-0 w-full h-[100vh] bg-white flex flex-col items-start justify-start z-50 transition-transform transform lg:hidden">
                     <button onClick={toggleMenu} className="absolute top-6 right-6">
-                        <Image src="/assets/close.svg" alt="close icon" width={24} height={24} />
+                        <Image loading='lazy'  src="/assets/close.svg" alt="close icon" width={24} height={24} />
                     </button>
                     <div className='mt-8 p-4'>
                     <ul className='flex flex-col gap-6 items-start px-2 '>

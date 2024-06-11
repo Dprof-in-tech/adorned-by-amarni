@@ -13,7 +13,7 @@ export default function Home() {
     <main className="bg-hero bg-contain h-[fit-content] w-[100%] p-4 font-[Garamond]">
       <Navbar />
       <Hero />
-      <Image src="/assets/scroll.svg" alt="arrow" width={500} height={500}  className="flex md:hidden h-[105px] w-[125px] mt-12 animate-pulse mx-auto " />
+      <Image loading='lazy'  src="/assets/scroll.svg" alt="arrow" width={500} height={500}  className="flex md:hidden h-[105px] w-[125px] mt-12 animate-pulse mx-auto " />
       <Showcase />
       <About />
       <Collection />
