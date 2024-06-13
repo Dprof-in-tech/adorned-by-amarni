@@ -28,7 +28,7 @@ const Collection = () => {
           </p>
           <a href="https://paystack.shop/adorned-by-amani">
             <button className="mt-2 px-6 py-3 bg-[#00046A] text-white rounded-lg">
-              Open Store &gt;
+              Open Store
             </button>
           </a>
         </div>
