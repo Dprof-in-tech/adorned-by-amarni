@@ -51,7 +51,7 @@ const Footer = () => {
       <div className="w-full lg:w-[75%] mx-auto mt-4  p-0 md:p-4 flex flex-col lg:flex-row items-center justify-center gap-2 md:gap-6">
         <p>
           Made By{" "}
-          <a href="https://theloopholestudio.supersite" className="underline">
+          <a href="https://theloopholestudio.super.site" className="underline">
             The LoopHole Studio{" "}
           </a>
         </p>
