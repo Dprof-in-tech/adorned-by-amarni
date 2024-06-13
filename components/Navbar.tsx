@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative flex flex-row justify-between px-2 md:px-12 py-2">
+    <nav className="max-w-7xl mx-auto relative flex flex-row justify-between px-2 md:px-12 py-2">
       <div className="">
         <Image
           src="/assets/logo.svg"

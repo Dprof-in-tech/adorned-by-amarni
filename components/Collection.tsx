@@ -3,7 +3,7 @@ import React from "react";
 
 const Collection = () => {
   return (
-    <div className="flex flex-col items-center text-center max-w-7xl px-2 py-6 mt-8 md:mt-[12rem]">
+    <div className="flex flex-col items-center text-center max-w-7xl mx-auto px-2 py-6 mt-8 md:mt-[12rem]">
       <h1 className="text-black font-semibold text-[2rem] md:text-[3rem]">
         Our Collection
       </h1>

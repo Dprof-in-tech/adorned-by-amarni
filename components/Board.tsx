@@ -3,7 +3,7 @@ import React from "react";
 
 const Board = () => {
   return (
-    <div className="max-w-7xl h-[550px] lg:h-[100vh] flex gap-4 md:px-12 px-8 py-8 mt-[8rem] md:mt-[12rem] relative">
+    <div className="max-w-7xl mx-auto h-[550px] lg:h-[100vh] flex gap-4 md:px-12 px-8 py-8 mt-[8rem] md:mt-[12rem] relative">
       <div className="w-[75px] h-[75px] lg:w-[160px] lg:h-[160px] rounded-lg absolute top-6 left-4 md:left-12">
         <Image
              
@@ -14,7 +14,7 @@ const Board = () => {
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
-      <div className="w-[100px] h-[100px] lg:w-[220px] lg:h-[220px] rounded-lg absolute top-0 right-4 lg:-right-12">
+      <div className="w-[100px] h-[100px] lg:w-[220px] lg:h-[220px] rounded-lg absolute top-0 -right-4">
         <Image
              
           src="/assets/Rings.svg"
@@ -54,7 +54,7 @@ const Board = () => {
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
-      <div className="w-[150px] h-[150px] lg:w-[220px] lg:h-[260px] rounded-lg absolute -bottom-[10rem] lg:-bottom-12 right-4 lg:-right-12">
+      <div className="w-[150px] h-[150px] lg:w-[220px] lg:h-[260px] rounded-lg absolute -bottom-[10rem] lg:-bottom-12 -right-4">
         <Image
              
           src="/assets/necklace-2.svg"
