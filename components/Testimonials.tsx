@@ -15,6 +15,7 @@ const Testimonials = () => {
       </div>
       <div className="flex flex-col flex-wrap items-center justify-center w-full lg:w-[75%] h-[400px] lg:h-[400px] mt-8 relative">
         <Image
+        loading="lazy"
           src="/assets/face-5.svg"
           alt="board"
           width={500}
@@ -22,6 +23,7 @@ const Testimonials = () => {
           className=" w-[35px] h-[35px] object-cover rounded-full absolute top-0 left-0"
         />
         <Image
+        loading="lazy"
           src="/assets/face-2.svg"
           alt="board"
           width={500}
@@ -29,6 +31,7 @@ const Testimonials = () => {
           className=" w-[50px] h-[50px] object-cover rounded-full absolute top-0 right-0"
         />
         <Image
+        loading="lazy"
           src="/assets/face-3.svg"
           alt="board"
           width={500}
@@ -36,6 +39,7 @@ const Testimonials = () => {
           className=" w-[35px] h-[35px] object-cover rounded-full absolute right-[25%] lg:right-[14rem] bottom-[15rem] lg:bottom-[10rem]"
         />
         <Image
+        loading="lazy"
           src="/assets/face-4.svg"
           alt="board"
           width={500}
@@ -43,6 +47,7 @@ const Testimonials = () => {
           className=" w-[30px] h-[30px] object-cover rounded-full absolute top-12 right-[22%] lg:right-[8rem]"
         />
         <Image
+        loading="lazy"
           src="/assets/face-1.svg"
           alt="board"
           width={500}
@@ -55,6 +60,7 @@ const Testimonials = () => {
           </button>
         </a>
         <Image
+        loading="lazy"
           src="/assets/face-6.svg"
           alt="board"
           width={500}
@@ -62,6 +68,7 @@ const Testimonials = () => {
           className=" w-[28px] h-[28px] object-cover rounded-full absolute bottom-[17rem] lg:bottom-[12rem] left-[5%] lg:left-[20rem]"
         />
         <Image
+        loading="lazy"
           src="/assets/face-7.svg"
           alt="board"
           width={500}
@@ -69,6 +76,7 @@ const Testimonials = () => {
           className=" lg:w-[75px] w-[35px] h-[35px] lg:h-[75px] object-cover rounded-full absolute left-[25%] lg:left-[8rem] top-12"
         />
         <Image
+        loading="lazy"
           src="/assets/face-8.svg"
           alt="board"
           width={500}
@@ -76,6 +84,7 @@ const Testimonials = () => {
           className=" w-[45px] h-[45px] object-cover rounded-full absolute bottom-[12rem] right-0"
         />
         <Image
+        loading="lazy"
           src="/assets/face-9.svg"
           alt="board"
           width={500}

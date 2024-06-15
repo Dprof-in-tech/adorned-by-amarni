@@ -10,7 +10,7 @@ const Collection = () => {
       <div className="w-full flex flex-wrap justify-evenly gap-4 pl-0 lg:pl-4 mt-12">
         <div className="group relative w-full lg:w-[32%] h-[360px] lg:h-[440px]">
           <Image
-               
+               loading="lazy"
             src="/assets/earrings.svg"
             alt="earrings"
             width={1000}
@@ -34,7 +34,7 @@ const Collection = () => {
         </div>
         <div className="group relative w-full lg:w-[32%] h-[360px] lg:h-[440px]">
           <Image
-               
+               loading="lazy"
             src="/assets/Anklets.svg"
             alt="earrings"
             width={500}
@@ -45,7 +45,7 @@ const Collection = () => {
         </div>
         <div className="group relative w-full lg:w-[32%] h-[360px] lg:h-[440px]">
           <Image
-               
+               loading="lazy"
             src="/assets/Necklace.svg"
             alt="earrings"
             width={500}
@@ -56,7 +56,7 @@ const Collection = () => {
         </div>
         <div className="group relative w-full lg:w-[32%] h-[360px] lg:h-[440px]">
           <Image
-               
+               loading="lazy"
             src="/assets/Bracelet.svg"
             alt="earrings"
             width={500}
@@ -67,7 +67,7 @@ const Collection = () => {
         </div>
         <div className="group relative w-full lg:w-[32%] h-[360px] lg:h-[440px]">
           <Image
-               
+               loading="lazy"
             src="/assets/Rings.svg"
             alt="earrings"
             width={500}

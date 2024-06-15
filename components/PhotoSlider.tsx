@@ -33,6 +33,7 @@ const CustomSlider = () => {
       <SwiperSlide>
         <div className="flex flex-row items-center gap-4 lg:gap-6 justify-center w-full py-10 px-2">
           <Image
+          loading="lazy"
             src="/assets/image-3.svg"
             alt="slide"
             width={500}
@@ -40,6 +41,7 @@ const CustomSlider = () => {
             className="w-[160px] h-[200px] hidden lg:flex"
           />
           <Image
+          loading="lazy"
             src="/assets/image-2.svg"
             alt="slide"
             width={500}
@@ -47,6 +49,7 @@ const CustomSlider = () => {
             className="w-[160px] h-[200px]"
           />
           <Image
+          loading="lazy"
             src="/assets/image-1.svg"
             alt="slide"
             width={500}
@@ -54,6 +57,7 @@ const CustomSlider = () => {
             className="w-[160px] h-[190px] hidden lg:flex"
           />
           <Image
+          loading="lazy"
             src="/assets/image-4.svg"
             alt="slide"
             width={500}
@@ -65,6 +69,7 @@ const CustomSlider = () => {
       <SwiperSlide>
         <div className="flex flex-row items-center gap-4 lg:gap-6 justify-center w-full py-10 px-2">
           <Image
+          loading="lazy"
             src="/assets/image-4.svg"
             alt="slide"
             width={500}
@@ -72,6 +77,7 @@ const CustomSlider = () => {
             className="w-[160px] h-[190px] hidden lg:flex "
           />
           <Image
+          loading="lazy"
             src="/assets/image-1.svg"
             alt="slide"
             width={500}
@@ -79,6 +85,7 @@ const CustomSlider = () => {
             className="w-[160px] h-[190px] "
           />
           <Image
+          loading="lazy"
             src="/assets/image-2.svg"
             alt="slide"
             width={500}
@@ -86,6 +93,7 @@ const CustomSlider = () => {
             className="w-[160px] h-[200px] "
           />
           <Image
+          loading="lazy"
             src="/assets/image-3.svg"
             alt="slide"
             width={500}

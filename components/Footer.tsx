@@ -57,7 +57,7 @@ const Footer = () => {
         </p>
         <p>
           &copy; {new Date().getFullYear()} Adorned by Amani. All rights
-          reserved.copyright update
+          reserved.
         </p>
       </div>
     </div>
