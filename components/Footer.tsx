@@ -56,8 +56,8 @@ const Footer = () => {
           </a>
         </p>
         <p>
-          &copy; {new Date().getFullYear()} Adorned by Amarni. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Adorned by Amani. All rights
+          reserved.copyright update
         </p>
       </div>
     </div>
