@@ -56,7 +56,7 @@ const Footer = () => {
           </a>
         </p>
         <p>
-          &copy; {new Date().getFullYear()} LoopHole Studios. All rights
+          &copy; {new Date().getFullYear()} Adorned by Amarni. All rights
           reserved.
         </p>
       </div>
